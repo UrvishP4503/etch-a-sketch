@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>etch a sketch</title>
+    <script defer src="main.js"></script>
+    <link rel="stylesheet" href="styles.css">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@4.0.0/dist/css/bootstrap.min.css" integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm" crossorigin="anonymous">
+
+</head>
+
+<body>
+    <div class="header">
+        <h1>Etch a sketch</h1>
+        <label for="customRange" class="form-label">Enter the size of grid</label>
+        <input type="range" class="form-range" min="16" max="128" id="customRange">
+        <h5>The size of grid is <span id="size"></span></h5>
+    </div>
+    <div class="board"></div>
+        <div class="footer">
+           <button type="button" class="btn btn-outline-info" id="reload">Reload</button>
+        </div>
+    </body>
+
+</html>
